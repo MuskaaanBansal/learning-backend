@@ -5,16 +5,10 @@ const uuid = require("uuid").v4;
 
 const posts = [
   {
-    id: uuid(),
+    id: 'post-1',
     title: "New Post 0",
     content: "lorem ipsum 0",
-    createdDate: new Date(),
-    updatedDate: new Date(),
-  },
-  {
-    id: uuid(),
-    title: "New Post 1",
-    content: "lorem ipsum 1",
+    userId: 'user-id-1',
     createdDate: new Date(),
     updatedDate: new Date(),
   },
